@@ -1,0 +1,26 @@
+.header-public-profile.short-header-wrapper {
+  height: 490px;
+  background-size: 100% 490px;
+  background-color: transparent;
+  @media (max-width: 1620px) {
+    height: 490px;
+    background-size: 100% 490px;
+  }
+  @media (max-width: 768px) {
+    height: 350px;
+    background-size: 100% 240px;
+  }
+  @media (max-width: 480px) {
+    height: 335px;
+    background-size: 100% 225px;
+  }
+}
+
+.header-public-profile.short-header-wrapper .hero {
+  &__container {
+    margin-top: 35px;
+  }
+  @media (max-width: 1620px) {
+    margin-top: 15px;
+  }
+}

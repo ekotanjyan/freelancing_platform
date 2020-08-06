@@ -1,0 +1,30 @@
+.dashboard-pages-body .header-main-footer-wrapper {
+  background-color: $color__background-white;
+  background-image: none;
+}
+
+body.register-body.dashboard-pages-body .header-main-footer-wrapper .main-wrapper {
+  background-image: url(/images/img/public-profile/doctor3.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom;
+  background-color: transparent;
+  background-size: 50% auto;
+  padding-bottom: 120px;
+
+  @media (max-width: 768px) {
+    background-size: 65% auto;
+  }
+  @media (max-width: 480px) {
+    background-size: 80% auto;
+  }
+}
+
+body.register-body.dashboard-pages-body .short-footer .footer-arc {
+  z-index: 50;
+
+  @media (max-width: 480px) {
+    .footer-arc-social-wrapper {
+      opacity: 0;
+    }
+  }
+}

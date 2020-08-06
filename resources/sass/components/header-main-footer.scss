@@ -1,0 +1,51 @@
+/* ==========================================================================
+Basic Styling
+========================================================================== */
+//body.register-body .wt-wrapper,
+body .wt-wrapper{
+  padding-bottom: 0px;
+  background-color: $color__background-white;
+}
+body.register-body .wt-contentwrapper{
+  position: relative;
+}
+
+body nav.wt-usernav {
+  z-index: 112;
+}
+
+body .wt-userlogedin {
+  margin: 0;
+  padding: 0;
+  .wt-userlogedin-wrap {
+    position: absolute;
+    right: 0;
+  }
+}
+
+body #searchHomePage {
+  box-shadow: 6px 13px 25px -10px rgba(148, 148, 148, 1);
+}
+
+
+.header-main-footer-wrapper {
+  .main-wrapper {
+    overflow: auto;
+    padding-bottom: 270px;
+    background-image: url(/images/img/index-main/doctor1.png), url(/images/img/index-main/doctor2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -48px bottom, right bottom;
+    background-size: auto 510px;
+    background-color: transparent;
+
+    @media (max-width: 620px) {
+      background-image: url(/images/img/index-main/doctor1.png);
+      background-repeat: no-repeat, no-repeat;
+      background-position: left -48px bottom;
+    }
+  }
+
+  .wt-main {
+    background-color: transparent;
+  }
+}

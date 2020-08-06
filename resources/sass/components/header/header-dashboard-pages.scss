@@ -1,0 +1,29 @@
+.dashboard-pages-body .short-header-wrapper {
+  z-index: 10;
+  position: relative;
+  background-color: transparent;
+
+  @media (max-width: 768px) {
+    background-color: $color__background-white;
+  }
+}
+
+/* ==========================================================================
+Dashboard sidebar
+========================================================================== */
+.dashboard-pages-body .wt-sidebarwrapper {
+  .wt-companysinfo {
+    margin-top: 180px!important;
+    padding: 30px 0;
+    @media (max-width: 768px) {
+      margin-top: 270px!important;
+    }
+    @media (max-width: 720px) {
+      margin-top: 210px!important;
+    }
+  }
+
+  .wt-btnmenutoggle {
+    top: 350px;
+  }
+}

@@ -1,0 +1,37 @@
+$container__wide-width: 1920px;
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 20px;
+  @media (max-width:1600px) {
+    font-size: 20px;
+  }
+  @media (max-width:991px) {
+    font-size: 18px;
+  }
+  @media (max-width:500px) {
+    font-size: 16px;
+  }
+}
+
+$body__font-size: 1rem;
+
+$color__text-white: #ffffff;
+$color__text-black: #000000;
+$color__text-dark-blue: #263b65;
+$color__text-light-gray: #797c92;
+$color__text-saturated-yellow: #fac816;
+$color__text-aqua: #78d0e3;
+$color__text-light-violet: #a2b1d8;
+
+$color__background-white: #ffffff;
+$color__background-light-violet: #a2b1d8;
+$color__background-pale-violet: #d2cdfe;
+$color__background-light-gray: #797c92;
+$color__background-dark-blue: #263b65;
+$color__background-blue: #2c5e96;
+$color__background-light-cyan: #cbe5fd;
+$color__background-cyan: #bbd7fd;
+$color__background-yellow: #fae079;
